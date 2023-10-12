@@ -1,0 +1,137 @@
+
+/* Estilos para el encabezado y la navegación */
+header {
+    background-color: #0B2447;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.brand img {
+    margin-right: 10px;
+    width: 150px; /* Tamaño fijo de la imagen en píxeles (ajusta el valor según sea necesario) */
+    height: auto; /* Esto mantiene la proporción de la imagen */
+}
+
+
+.brand h1 {
+    margin: 0;
+    font-size: 1.5em;
+    display: inline-block; /* Hace que el elemento sea en bloque */
+    background-color: #19376D; /* Color de fondo para la palabra "TIENDA" */
+    padding: 10px 20px; /* Ajusta el tamaño del cuadrado */
+    border-radius: 10px; /* Añade bordes redondeados */
+    color: #A5D7E8; /* Cambia el color del texto dentro del cuadrado */
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    display: inline;
+    margin-right: 45px;/* Aumenta el espacio entre las palabras */
+    font-family: 'Nombre de la Fuente', sans-serif;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em; /* Aumenta el tamaño de la fuente */
+    transition: color 0.3s;
+    font-family: 'Montserrat', sans-serif;/* Transición suave de color */
+}
+
+nav a:hover {
+    color: #005B41; /* Cambia el color al pasar el cursor sobre las palabras */
+}
+
+/* Estilos para las secciones */
+#banner-promocion img {
+    width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #19376D;
+    color: #fff;
+}
+
+#recomendados, #mas-vendidos {
+    background-color: #19376D;
+    color: #fff;
+}
+
+/* Estilos para los textos dentro de las secciones */
+section p {
+    color: #000; /* Cambiado a negro */
+    font-family: 'Roboto', sans-serif; /* Añade la fuente Roboto */
+    font-size: 1.2em; /* Ajusta el tamaño según lo necesites */
+}
+
+
+
+/* Estilos para los juegos */
+.juego {
+    display: inline-block;
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.juego img {
+    max-width: 100%; /* Establece el ancho máximo al 100% del contenedor */
+    border-radius: 5px;
+}
+
+
+.juego h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.juego p {
+    font-size: 1.2em;
+}
+
+.imagen-aplicacion,
+.imagen-promocion {
+    
+    max-width: 200px; /* Cambia este valor según lo necesites */
+    border-radius: 5px;
+    margin: 0 10px;
+    /* Añade espacio entre las imágenes */
+}
+
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #0B2447;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+

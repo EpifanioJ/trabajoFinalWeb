@@ -1,0 +1,129 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+.body{
+    background-image: 'img/horizon.jpg';
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+header{
+    width: 100%;
+    margin-top: 50px;
+    height: 75px;
+    background: #183D3D;
+}
+
+/*haciendo la segunda caja más pequeña*/
+.ancho{
+    width: 90%;
+    height: 70px;
+    /*background: black;*/
+    margin: auto;
+}
+
+/*trabajando en la tercera caja*/
+.logo{
+    width: 30%;
+    height: 70px;
+    /*background: silver;*/
+    float: left; /*no hacer*/
+    padding-top: 9px; /*no hacer*/
+    box-sizing: border-box; /*no hacer*/ /*evita que se agrande*/
+}
+
+/*trabajando en el nav*/
+nav{
+    width: 70%;
+    height: 75px;
+    /*background: lime;*/
+    float: left;
+    /* hacemos float: left al logo*/
+    text-align: right;/*menú a la derecha*/ /*no hacer*/
+    padding-top: 25px; /*todo lo que está en el menú baje*/ /*no hacer*/
+    box-sizing: border-box; /*para evitar que se agrande el contenedor*/ /*no hacer*/
+}
+
+/*modificar el logo*/
+.logo img{
+    margin: 0px;
+}
+
+.logo p a{
+    color: white;
+    font-size: 30px;
+    /*agregamos padding-top al logo*/ /*agregar box-sizing a logo*/
+    text-decoration: none /*no hacer*/
+
+}
+
+.logo img{
+    width: 400px;
+    height: 55px;
+}
+
+/*transformando el menú*/
+nav ul li{
+    display: inline-block;
+    text-decoration: none;
+}
+
+/*cambiando las propiedades de las letras*/
+nav ul li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    /*agregamos text-align, padding-top y box-sizing al nav*/
+    padding-left: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;/*separando letras del menú*/
+    font-family: quic;/*no hacer*/
+}
+
+/*evento hover del mouse*/
+nav ul li a:hover{
+    color: #040D12;
+}
+
+
+#GOD{
+    width: auto;
+    height: auto;
+    padding-top: 25px;
+    background: rgb(255, 255, 255);
+    margin-top: 20px;
+    float: left;
+    text-align: center;
+
+}
+
+aside{
+    width: 20%;
+    height: 10px;
+    text-align: left;
+    float: left;
+    line-height: 100px;
+
+}
+nav1{
+
+    margin-top: 100px;
+
+    line-height: 50px;
+
+
+}
+header1{
+    background: #444ACB;
+    height: 200px;
+    clear: both;
+    text-align: center;
+    line-height: 100px;
+}
+.imagen1{
+    height: auto;
+    width: auto;
+}

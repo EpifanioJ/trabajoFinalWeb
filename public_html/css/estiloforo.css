@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    background-image: url(imagen2.jpg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+header{
+    width: 100%;
+    margin-top: 50px;
+    height: 75px;
+    background: #183D3D;
+}
+
+.ancho{
+    width: 90%;
+    height: 70px;
+    margin: auto;
+}
+.logo{
+    width: 30%;
+    height: 70px;
+    float: left; 
+    padding-top: 9px; 
+    box-sizing: border-box;
+}
+nav{
+    width: 70%;
+    height: 75px;
+    float: left;
+    text-align: right;
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+.logo img{
+    margin: 0px;
+}
+.logo p a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none
+}
+.logo img{
+    width: 400px;
+    height: 55px;
+}
+nav ul li{
+    display: inline-block;
+    text-decoration: none;
+}
+nav ul li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+
+    padding-left: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: quic;
+}
+nav ul li a:hover{
+    color: #040D12;
+}
+table{
+    border-collapse: collapse;
+}
+.tabla2{
+    border-width: 20px;
+}
+.tabla3{
+    width: 50%;
+    height: 300px;
+}
+tr:nth-of-type(1)>td{
+    background: grey;
+}
+.tr1{
+    width: 10%;
+    height: 5200px;
+}
+td{
+    font-size: 20px;
+    text-decoration: none;
+}
+hr{
+     border-top: 10px solid #183D3D;
+}
+hr a{
+    border-top: 5px solid #183D3D;
+}
